@@ -22,7 +22,7 @@ write_files:
       }
 runcmd:
   - service nginx restart
-  - git clone git@github.com:theplastictoy/azure-vmss-gitupull-cd.git /home/rifiel/myapp
+  - git clone https://github.com/theplastictoy/azure-vmss-gitupull-cd.git /home/rifiel/myapp
   - cd "/home/rifiel/myapp"
   - npm install
   - sudo npm install -g forever
