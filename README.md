@@ -63,7 +63,7 @@ Proceed as below:
 * **Build Process agent queue:** Hosted Linux (Preview)
 * **Release Phase1 agent queue:** Hosted
 
-![vsts-build-linux](media/vsts-build-linux.png)
+![vsts-build-linux](media/vsts-build-linux.PNG)
 _(Image: Build agent)_
 
 ![vsts-release-linux](media/vsts-release-linux.png)
