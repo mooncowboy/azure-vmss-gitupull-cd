@@ -43,7 +43,7 @@ Also, if you need to ssh to the VMs, you can specify the port from the NAT rules
 
 Browse to the created VM Scale Set on the Azure Portal and click on Continuous Delivery (preview).
 
-![vmss-cd](./media/vmss-cd.png)
+![vmss-cd](media/vmss-cd.png)
 
 Proceed as below:
 
@@ -63,10 +63,10 @@ Proceed as below:
 * **Build Process agent queue:** Hosted Linux (Preview)
 * **Release Phase1 agent queue:** Hosted
 
-![vsts-build-linux](./media/vsts-build-linux.png)
+![vsts-build-linux](media/vsts-build-linux.png)
 _(Image: Build agent)_
 
-![vsts-release-linux](./media/vsts-release-linux.png)
+![vsts-release-linux](media/vsts-release-linux.png)
 _(Image: Release agent)_
 
 # Testing the pipeline
