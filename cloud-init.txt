@@ -23,7 +23,6 @@ write_files:
 runcmd:
   - service nginx restart
   - git clone https://github.com/theplastictoy/azure-vmss-gitupull-cd.git /home/rifiel/myapp
-  - cd "/home/rifiel/myapp"
-  - npm install
+  - cd "/home/rifiel/myapp/www"
   - sudo npm install -g forever
   - PORT=3000 forever start --watch index.js
