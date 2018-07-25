@@ -26,3 +26,4 @@ runcmd:
   - cd "/home/rifiel/myapp"
   - npm install
   - sudo npm install -g forever
+  - PORT=3000 forever start --watch index.js
